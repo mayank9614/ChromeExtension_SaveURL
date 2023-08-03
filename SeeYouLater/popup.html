@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SeeYouLater</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    #popupContainer {
+      width: 250px;
+      height: 250px;
+      border-radius: 15px;
+      background-color: #003300;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    h1 {
+      color: #00e600;
+      margin: 0;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    button {
+      background-color: #00b33c;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #00802b;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      color: #00e600;
+      margin-bottom: 5px;
+    }
+  </style>
+  <script src="popup.js"></script>
+</head>
+<body>
+  <div id="popupContainer">
+    <h1>SeeYouLater</h1>
+    <button id="saveButton">Save URL</button>
+    <ul id="urlList"></ul>
+  </div>
+</body>
+</html>

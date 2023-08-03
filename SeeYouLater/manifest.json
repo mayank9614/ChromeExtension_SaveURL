@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "SeeYouLater",
+    "version": "1.0",
+    "description": "A simple Chrome extension to save URLs as text files.",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": ["tabs"]
+  }
